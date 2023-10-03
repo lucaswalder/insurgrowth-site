@@ -1,0 +1,7 @@
+Comando para Otimizar SVG
+
+svgo img/*.svg -o img
+
+Comando para executar Gulp
+
+npm install --unsafe-perm=true

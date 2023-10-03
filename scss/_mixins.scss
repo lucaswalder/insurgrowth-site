@@ -1,0 +1,8 @@
+@mixin btn-roxo() {
+    width: 303px;
+    height: 60px;
+    box-shadow: 0 15px 22px -11px rgba(0, 0, 0, 0.19);
+    border-radius: 8px;
+    background-image: linear-gradient(to top, #14151a 0%, #990dee 100%);
+    @include grid-centro();
+}

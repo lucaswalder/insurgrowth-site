@@ -1,0 +1,76 @@
+* {
+    list-style: none;
+    text-decoration: none !important;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    border: 0;
+    color: #23292e;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+button {
+    background: transparent;
+    cursor: pointer;
+}
+
+img {
+    display: block;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+.btn-roxo {
+    width: 303px;
+    height: 60px;
+    box-shadow: 0 15px 22px -11px rgba(0, 0, 0, 0.19);
+    border-radius: 8px;
+    background-image: linear-gradient(to top, #5C138A 0%, #990DEE 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 auto;
+    text-decoration: none;
+    transform: scale(1);
+    transition: all .3s !important;
+    &:hover {
+        color: #ffffff;
+        text-decoration: none;
+        transform: scale(1.05) !important;
+        transition: all .3s !important;
+    }
+}
+
+.swiper-pagination {
+    position: relative;
+    bottom: 0;
+    width: auto;
+    .swiper-pagination-bullet {
+        width: 6px;
+        height: 6px;
+        background-color: #aee5df;
+        opacity: 1;
+        margin: 0px 9.5px;
+        transition: all .3s;
+        &.swiper-pagination-bullet-active {
+            height: 17px;
+            width: 6px;
+            border: 1px solid #00bda2;
+            border-radius: 8px;
+            background-color: #00bda2;
+        }
+    }
+}
+

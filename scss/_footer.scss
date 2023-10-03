@@ -1,0 +1,109 @@
+footer {
+    background-color: #0c2030;
+    padding-top: 43px;
+    padding-bottom: 52px;
+    .text {
+        p {
+            color: #b0b3bf;
+            font-size: 11px;
+            font-weight: 400;
+            letter-spacing: 1.1px;
+            text-transform: uppercase;
+            margin-right: 25px;
+            padding-right: 25px;
+            border-right: 1px solid #b0b3bf;
+        }
+        .social-mobile {
+            display: none;
+        }
+        .btns {
+            display: none;
+        }
+        a {
+            color: #ffffff;
+            font-size: 11px;
+        }
+    }
+    .dev {
+        span {
+            color: #b0b3bf;
+            font-size: 11px;
+            font-weight: 400;
+            letter-spacing: 1.1px;
+            margin-right: 18px;
+        }
+    }
+    @media(max-width: 1050px) {
+        padding: 40px 0px;
+        .col-xl-12 {
+            flex-direction: column;
+        }
+        .logo {
+            margin-bottom: 30px;
+        }
+        .text {
+            flex-direction: column;
+            margin-bottom: 30px;
+            p {
+                margin-right: 0px;
+                padding-right: 0px;
+                border-right: none;
+            }
+        }
+    }
+    @media(max-width: 480px) {
+        .text {
+            margin-bottom: 67px;
+            p {
+                text-align: center;
+                max-width: 262px;
+                margin-bottom: 30px;
+            }
+            .social-mobile {
+                margin-bottom: 0;
+                display: flex;
+                align-items: center;
+                margin-bottom: 28px;
+                li {
+                    margin-left: 32px;
+                    &:first-child {
+                        margin-left: 0px;
+                    }
+                    a {
+                        i {
+                            color: #00bda2;
+                            font-size: 23px;
+                        }
+                    }
+                }
+            }
+            .btns {
+                display: flex;
+                flex-direction: column;
+                .btn-comece {
+                    width: 256px;
+                    height: 60px;
+                    border-radius: 8px;
+                    margin-bottom: 21px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: #00d4b5;
+                    font-size: 14px;
+                    font-weight: 600;
+                    border: 2px solid #00d4b5;
+                }
+                .btn-agenda {
+                    display: block;
+                    text-align: center;
+                    color: #00d4b5;
+                    font-size: 14px;
+                    font-weight: 600;
+                }
+            }
+            .btn-fale-conosco {
+                display: none;
+            }
+        }
+    }
+}
